@@ -18,6 +18,15 @@ p {
   font-size: x-large;
 }
 
+.about a {
+  text-decoration: none;
+  color: rgb(7, 7, 222);
+}
+
+/* footer p {
+  font-family: 'Montserrat', sans-serif;
+} */
+
 header {
     display: flex;
     flex-direction: row;
@@ -48,7 +57,7 @@ header a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 30px;
+    grid-gap: 50px;
     background-color: #fff;
     color: #444;
 }
@@ -56,7 +65,7 @@ header a {
 .projectBox {
     background-color: rgb(68, 68, 68);
     color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 150%;
     aspect-ratio: 1 / 1;
     transition: transform 0.5s 0.25s ease;
@@ -123,6 +132,10 @@ footer img {
 
 #notLast {
   padding-right: 10px;
+}
+
+#black {
+  color: black;
 }
 
 /* contact form stylying modified from Colorlib*/
